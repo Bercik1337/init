@@ -1,0 +1,14 @@
+# m h  dom mon dow   command
+#skrypty
+45 0 * * * /root/skrypty/nieudanelogowania.sh
+#0-59/15 * * * * /root/skrypty/pinger2.sh >/dev/null 2>&1
+#backupy
+#10 1 * * 0 tar -czf /home/bercik/torrenty/swap/vm-backup/etc.tar /etc 2> /dev/null
+#25 1 * * 0 tar -czf /home/bercik/torrenty/swap/vm-backup/var.tar --exclude="/var/lib" /var 2> /dev/null
+#0 2 * * 0 tar -czf /home/bercik/torrenty/swap/vm-backup/root.tar /root 2> /dev/null
+#nowe backupy
+10 1 * * 0 /root/skrypty/backuper.sh /etc /var/log /var/games /var/spool /var/mail
+18 1 * * 0 /root/skrypty/backuper.sh /root /home/dot /home/psychol /home/roomeck /home/chmuri /home/hercules
+#disaster recovery
+40 4 * * 0 /root/skrypty/disasterrecovery.sh
+

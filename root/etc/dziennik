@@ -1,0 +1,100 @@
+---------------------------------
+2009-04-05 Doinstalowano sendmail. Mo¿na teraz wysy³aæ/odbieraæ poczte i byæ informowany mailem o skoñczonych pracach w systemie.
+Do podstawowej obs³ugi poczty s³u¿y komenda mail oraz mutt.
+---------------------------------
+2009-05-10 Zapraszam do pojedynku w tetrisa. Komenda "tetris-bsd". High score z parametrem -s
+---------------------------------
+2009-07-09 Dziêki elektrowni w³a¶nie pad³ 70+dni uptime ;(
+---------------------------------
+2009-07-13 Chcia³em przy "okazji" zaktualizowaæ kernel, ale zapomnialem o drobiazgu. Mam nadzieje, ze next time sie uda.
+---------------------------------
+2009-08-21 Doinstalowa³em fail2ban - po kilku nieudanych próbach zalogowania blokuje ruch z danego IP. Poprzednia app w tym celu sie nie spisa³a
+---------------------------------
+2009-08-28 Skoñczy³o siê miejsce na dysku i system ubi³ VMware'a. Uptime znowu w plecy (45) ale jest nowy kernel.
+---------------------------------
+2009-09-27 Doinstalowane bouncer IRC'a (znc) aby nie powielaæ procesów proszê chêtnych o zg³aszanie siê w celu utworzenia konta.
+---------------------------------
+2009-10-29 Wymieni³em jeden z wiatraków w serwerze. Uda³o siê bez wy³aczania maszyny. Uptime leci dalej.
+---------------------------------
+2009-12-23 Elektrownia nie daje mi ¿yæ. Jakby kto¶ sie móg³ dorzuciæ do UPS'a by³bym d¼wiêczny.
+---------------------------------
+2010-01-09 Znowu brak pr±du. -- I ZNOWU BRAK BR¡DU KU...
+---------------------------------
+2010-01-12 To przechodzi ludzkie pojêcie. W ci±gu 4 dni 3x brak pr±du.
+---------------------------------
+2010-02-19 Zmiany, porz±dki i jeszcze wiêcej. Pojawi³y siê nowe komendy, wpisz "pomoc" aby uzyskaæ wiêcej informacji. Przeczyszono newsy.
+---------------------------------
+2010-03-24 Kolejny brak pr±du. 72dni uptime :'(. Zrobiony backup
+---------------------------------
+2010-07-03 Hura, 100 dni uptime'u ;)
+---------------------------------
+2010-07-10 Dzi¶ przedmucha³em sprê¿ark± pracuj±cy serwer ;D Uptime leci dalej.
+---------------------------------
+2010-07-27 Uwaga! Dnia 30.07.2010 o godzinie 00:00 zostan± zabite WSZYSTKIE procesy w celu przeczyszczenia RAMu. Po tej dacie proszê o ponowne zalogowanie i przywrócenie niezbêdnych sesji
+---------------------------------
+2010-08-27 Brak pradu. 155dni uptime'u wpizdu ;/
+---------------------------------
+2010-09-06 Brak pr±du
+---------------------------------
+2010-09-19 Nast±pi³a zamiana konfiguracji sieci. Od teraz nie powinny pojawiaæ siê braki Internetu co 2-3 dni jak to mia³o miejsce do tej pory.
+---------------------------------
+2010-09-24 Przeczyszczono newsy.
+---------------------------------
+2010-11-01 Zmienione motd. Ponadto uleg³ uszkodzeniu mój laptop, jakby kto¶ siê móg³ dorzuciæ do naprawy by³bym wdziêczny. Szykuj± siê zmiany i niespodzianki
+---------------------------------
+2010-11-20 Brak pr±du.
+---------------------------------
+2010-11-27 Zmieniono uprawnienia do /home
+---------------------------------
+2010-11-28 Brak pr±du. Bez UPSa bêdzie ciêzko
+---------------------------------
+2010-12-06 Brak pr±du. Z N O W U
+---------------------------------
+2010-12-13 Brak pradu
+---------------------------------
+2011-02-04 Dnia 05.02.2011 o 23:59 zostan± zabite wszystkie procesy. Proszê po tej dacie ponownie siê zalogowaæ i przywróciæ programy
+---------------------------------
+2011-04-11 Recycle wirtualnej maszyny, powinno ju¿ tak nie muliæ. Zabi³em procesy userów
+---------------------------------
+2011-05-14 Wymieniono router na inny model. W razie problemow z dzialaniem prosze o natychmiastowe raportowanie.
+---------------------------------
+2011-06-15 Brak pr±du. Tu¿ przed przesiadk± na nowy serwer
+---------------------------------
+2011-06-19 Witam na nowej maszynie. Na dniach pojawi± siê nowe us³ugi. Zapomnijcie o muleniu systemu ;)
+---------------------------------
+2011-06-29 Brak pr±du
+---------------------------------
+2011-08-22 Brak neta przez 3 dni. Mam nadzieje, ze to sie nie powtorzy ;O
+---------------------------------
+2011-08-31 Brak pradu
+---------------------------------
+2011-10-25 Wyczyszczono MOTD.
+---------------------------------
+2011-11-20 W nocy z 25 na 26 listopada zostanie przeprowadzona aktualizacja znc. W godzinach 18-06 usluga moze chwilowo byc nieczynna
+---------------------------------
+2011-12-12 Dnia 13.12.2011 w godzinach 20-24 zostanie przeprowadzona aktualizacja programu ekg, na chwile przed aktualizacja prosze o wylaczenie wszystkich sesji ekg. Gdy kto¶ tego nie zrobi jego sesja zostanie zabita
+---------------------------------
+2011-12-26 Ustawiono tworzenie disaster recovery w ka¿d± niedziele o 4:40
+---------------------------------
+2012-01-01 W nocy z dnia 2012.01.03 na 2012.02.04 w godzinach 18:00-06:00zostanie przeprowadzona aktualizacja irssi. Wszyscy proszeni sa o wylaczenie swoich sesji przed aktualizacja. W przypadku nie wylaczenia zabijam program
+---------------------------------
+2012-01-03 Brak pradu ;/ a UPSa wciaz brak
+---------------------------------
+2012-01-03 Aktualizacja irssi powiodla sie. Aktualna wersja to 0.8.15
+---------------------------------
+2012-03-14 Dzis w godzinach 20-23 zostanie wykonany restart maszyny. Wszystkie uslugi beda chwilowo niedostepne
+---------------------------------
+2012-05-26 = = = = = UWAGA = = = = = W niedziele dnia 27.05.2012 zostanie przeprowadzona aktualizacja debiana do wersji 6.0 w tym czasie logowanie do systemu zostanie ZABLOKOWANE. Moze to potrwac nawet kilka godzin. Postaram sie zrobic to miedzy 06 a 18 = = = = = =
+---------------------------------
+2012-05-28 Wczoraj udalo sie pomyslnie zaktualizowac system. Ponadto pojawil sie DLUGO OCZEKIWANY.... UPS! Miejmy nadzieje, ze braki pradu nie beda nam juz straszne. Przypominam tez o oplatach za serwer ;)
+---------------------------------
+2012-07-31 serwer HTTP przeniesiony zostal na hubble. Mozna poprosic o vhosta lub uzywac tzw userdir. Aby je wlaczyc nalezy wydac polecenie 'utworzpublichtml' po jego wykonaniu w katalogu domowym powinien pojawic sie folder public_html. Jego zawartosc bedzie widoczna w http://bercik.dyndns.org/~twojlogin
+---------------------------------
+2012-10-11 W najblizsza niedziele 14.10.2012 w godzinach 11-15 system zostanie tymczasowo wylaczony w celu aktualizacji i czyszczenia. Logowanie bedzie mozliwe dopiero po zakonczeniu procesu.
+---------------------------------
+2012-12-04 Dysk ma badsectory ;( trzeba zrobic zrzute na nowy
+---------------------------------
+2013-02-07 awaria ---- prosze o pilne wplaty --- dzialamy na zapasowym dysku. system moze byc niestabilny albo calkowicie wylaczony az do wymiany
+---------------------------------
+2013-03-31 Hurra! 300 dni uptime'u! Doinstalowano vim
+---------------------------------

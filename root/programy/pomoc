@@ -1,0 +1,55 @@
+#!/bin/bash
+echo "          POMOC"
+echo "          -----"
+echo "Wybierz jedna z opcji:"
+echo
+echo "1) Przydatne komendy"
+echo "2) Dobre praktyki"
+echo "3) Regulamin"
+echo "4) Wyjscie"
+echo
+
+read wybor
+case "$wybor" in
+
+  "1" )
+  echo "---------------"
+  echo "Popularne programy to:"
+  echo "irssi - klient IRC"
+  echo "ekg/ekg2 - klient sieci gadu-gadu"
+  echo "mutt/mail - klient poczty"
+  echo "tetris-bsd - konsolowa wersja tetrisa"
+  echo "nano/pico/mcedit - edytory tekstu"
+  echo "screen - symuluje wiele sesji terminala w jednym oknie"
+  echo "ncftp - klient ftp z obsluga bookmarkow"
+  echo "lynx/links2 - przegladarka internetowa"
+  echo "mc - konsolowy menadzer plikow"
+  echo "motd - wyswietla message of the day"
+  echo "dziennik - wyswietla wszystkie komunikaty od poczatku istnienia tego VM'a(oprócz tych co zgubilem ;P)"
+  echo "utworzpublichtml - aktywuje funkcje userdir, i montuje katalog public_html do folderu domowego"
+  ;;
+
+  "2" )
+  echo "---------------"
+  echo "* Do wylogowywania z serwera uzywaj kombinacji ctrl+d"
+  echo "* Nie wchodz i wychodz z serwera co chwile. Zaloguj sie raz i trzymaj jak najdluzsze sesje (takto smiecisz logi)"
+  echo "* Uruchamiaj wiele programow na jednym screenie (zerknij tutoriale w sieci)"
+  echo "* Chcac uruchomic irssi na screenie wywolaj: 'screen -S irssi irssi' Nadasz nazwe sesji screena i ominesz wywolanie kolejnego basha"
+  echo "* Jesli terminal sie zawiesi, sprobuj zrestartowac za pomoca ctrl+r"
+  echo "* Skonfiguruj utrzymywanie polaczenia z serwerem, wiecej: http://bercik.neostrada.pl/putty/"
+  echo "* Suit up!"
+  ;;
+
+  "3" )
+   echo
+   echo "http://bercik.dyndns.org/regulamin.html"
+  ;;
+  "4" )
+  exit 0
+  ;;
+
+ * )
+ echo "A Homo habilis just discovering his opposable thumbs says what?"
+;;
+esac
+

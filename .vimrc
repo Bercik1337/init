@@ -1,5 +1,5 @@
-syntax off
-:echo
+syntax on
+":echo
 map <F7> 5<Up>
 map <F8> 5<Down>
 " If using a dark background within the editing area and syntax highlighting

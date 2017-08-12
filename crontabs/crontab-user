@@ -1,0 +1,9 @@
+# m h  dom mon dow   command
+#0 1 * * * /home/bercik/skrypty/homebackup.sh >/dev/null 2>&1
+#0 1 * * * /home/bercik/skrypty/backup
+##0 15 * * * /home/bercik/skrypty/garfield >/dev/null 2>&1
+##0 18 * * * /home/bercik/skrypty/astronomy >/dev/null 2>&1
+###*/15 * * * * /home/bercik/skrypty/zncrun.sh >/dev/null 2>&1
+0 2 * * 0 /home/bercik/skrypty/wyslijbackup.sh
+####0 4 * * 2 /home/bercik/skrypty/wyslijbackupskynet.sh
+###0 6 * * 0 /home/bercik/skrypty/hubble_DR.sh pollux #malina apollo

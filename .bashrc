@@ -111,6 +111,7 @@ alias sR='sudo systemctl restart'
 alias sS='sudo systemctl status'
 alias sT='sudo systemctl start'
 alias xz='xz -T 0'
+alias htop='htop -u $USER'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile

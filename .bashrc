@@ -134,3 +134,4 @@ alias uxterm='UXTERM=yes uxterm'
 #export SP_CHARSET="iso-8859-2"
 
 # ---- language-env end DON'T MODIFY THIS LINE!
+export PATH=$PATH:~/.bin/

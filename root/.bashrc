@@ -89,20 +89,28 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias l='ls -CF'
-alias la='ls -A'
-alias lk='ls -lSr'
+alias a='last -10'
+alias cal='cal -m'
+alias dir='dir --color=auto'
+alias grep='grep --color=auto'
+alias htop='htop -u $USER'
+alias l='ls -CFh'
+alias lS='ls -lSrh'
+alias la='ls -Ah'
+alias lg='ls -lh | grep'
+alias lk='ls -lrth'
 alias ll='ls -lh --color=auto'
 alias ls='ls --color=auto'
-alias lt='ls -ltr'
+alias lt='ls -lht'
 alias lx='ls -lXB'
-
-alias ssh='ssh -C'
-alias saidar='saidar -c'
-alias matrix='tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"'
-alias rapiduj='screen -S rapid sh /home/bercik/skrypty/rsget.sh'
-alias uacz='cd /var/log; tail -f -n 7 fail2ban.log auth.log syslog backupy syslog kern.log messages'
-#alias l='ls -CF'
+alias rsync='rsync --progress'
+alias sP='sudo systemctl stop'
+alias sR='sudo systemctl restart'
+alias sS='sudo systemctl status'
+alias sT='sudo systemctl start'
+alias uxterm='UXTERM=yes uxterm'
+alias vdir='vdir --color=auto'
+alias xz='xz -T 0'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -125,3 +133,4 @@ export MM_CHARSET="iso-8859-2"
 export SP_CHARSET="iso-8859-2"
 
 # ---- language-env end DON'T MODIFY THIS LINE!
+export PATH=$PATH:~/bin

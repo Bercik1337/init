@@ -88,29 +88,28 @@ if [ -x /usr/bin/dircolors ]; then
     #alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
-alias a='last -10'
+# some more aliases
 alias cal='cal -m'
-alias dir='dir --color=auto'
+alias a='last -10'
 alias grep='grep --color=auto'
 alias htop='htop -u $USER'
-alias l='ls -CFh'
-alias lS='ls -lSrh'
-alias la='ls -Ah'
-alias lg='ls -lh | grep'
-alias lk='ls -lrth'
-alias ll='ls -lh --color=auto'
-alias ls='ls --color=auto'
-alias lt='ls -lht'
-alias lx='ls -lXB'
 alias rsync='rsync --progress'
 alias sP='sudo systemctl stop'
 alias sR='sudo systemctl restart'
 alias sS='sudo systemctl status'
 alias sT='sudo systemctl start'
-alias uxterm='UXTERM=yes uxterm'
-alias vdir='vdir --color=auto'
 alias xz='xz -T 0'
+alias fup='apt-get update; apt-get upgrade -y; apt-get autoclean; apt-get autoremove; apt-get clean'
+
+alias ll='ls -lh --color=auto'
+alias la='ls -Ah'
+alias l='ls -CFh'
+alias lx='ls -lhX'                      # by ext alphabetically
+alias lt='ls -lht'                      # newest to oldest
+alias lk='ls -lrth'                     # oldest to newest
+alias lS='ls -lSrh'                     # smallest to biggest
+alias lg='ls -lh | grep'                # ls with grep
+
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile

@@ -103,6 +103,7 @@ alias fup='apt-get update; apt-get upgrade -y; apt-get autoclean; apt-get autore
 
 alias ll='ls -lh --color=auto'
 alias la='ls -Ah'
+alias lla='ls -lah'
 alias l='ls -CFh'
 alias lx='ls -lhX'                      # by ext alphabetically
 alias lt='ls -lht'                      # newest to oldest
@@ -130,6 +131,8 @@ alias uxterm='UXTERM=yes uxterm'
 
 export MM_CHARSET="iso-8859-2"
 export SP_CHARSET="iso-8859-2"
-
+#Timezone for Warsaw
+export TZ='/usr/share/zoneinfo/Europe/Warsaw'
 # ---- language-env end DON'T MODIFY THIS LINE!
-export PATH=$PATH:~/bin
+export PATH=$PATH:~/.bin/
+

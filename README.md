@@ -11,7 +11,7 @@ This package contains:
 
 00-backup-current.sh	Copies current configuration. bashrc and other files that will be changed.
 
-01-prep-user.sh		Prepare user env. bashrc vimrc nanorc, and so on...
+01-prep-user.sh		Prepare user env:  bashrc vimrc nanorc, and so on...
 
 02-prep-root.sh		Same as 01 but for root. Plus some more con/var files often used on my boxes.
 
@@ -19,7 +19,7 @@ This package contains:
 
 README.md		Well, you are looking at it right now.
 
-other files/folders	Everything else needed for this script. Some files are hidden. They will be deployed after you run 0*.sh
+other files/folders	Everything else needed for this script. Some files are hidden. They will be deployed after 			   you run 0*.sh
 - - - - - - - 
 
 I do know, that this is no rocket sience. But I deploy A LOT of systems. Also help around friends. This entire process to setup system how I like it always takes some time. It got so annoying that I decided to automate it. 

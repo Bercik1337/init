@@ -115,7 +115,7 @@ alias rtorrent2='rtorrent -n -o import=~/.rtorrent-stare.rc'
 
 alias ll='ls -lh --color=auto'
 alias la='ls -Ah'
-alias lla='ls -la'
+alias lla='ls -lah'
 alias l='ls -CFh'
 alias lx='ls -lhX'			# by ext alphabetically
 alias lt='ls -lht'			# newest to oldest

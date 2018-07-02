@@ -65,6 +65,7 @@ if [ "$color_prompt" = yes ]; then
 	# PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 	# PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 	# PS1='${debian_chroot:+($debian_chroot)}\[\033[01;30m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+        # PS1="\e[1;37m[\e[0;32m\u\e[0;35m@\e[0;32m\h\e[1;37m]\e[1;37m[\e[0;31m\w\e[1;37m]$ " 
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -122,6 +123,11 @@ alias lt='ls -lht'			# newest to oldest
 alias lk='ls -lrth'			# oldest to newest
 alias lS='ls -lSrh'			# smallest to biggest
 alias lg='ls -lh | grep'		# ls with grep
+#serwery
+alias sshfsexidia='sshfs -o follow_symlinks exidia:/home/bercik /mnt/exidia/'
+alias sshfsleotia='sshfs -o follow_symlinks leotia:/home/bercik/ /mnt/leotia'
+alias sshfsplatinum='sshfs -o follow_symlinks platinum:/home/bercik /mnt/platinum'
+alias sshfsthunix='sshfs -o follow_symlinks thunix:/home/b/bercik/ /mnt/thunix'
 
 
 # enable programmable completion features (you don't need to enable

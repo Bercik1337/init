@@ -123,6 +123,7 @@ alias lt='ls -lht'			# newest to oldest
 alias lk='ls -lrth'			# oldest to newest
 alias lS='ls -lSrh'			# smallest to biggest
 alias lg='ls -lh | grep'		# ls with grep
+alias findold='find . -atime'
 #serwery
 alias sshfsexidia='sshfs -o follow_symlinks exidia:/home/bercik /mnt/exidia/'
 alias sshfsleotia='sshfs -o follow_symlinks leotia:/home/bercik/ /mnt/leotia'

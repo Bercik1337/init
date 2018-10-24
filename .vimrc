@@ -31,7 +31,7 @@ set hlsearch
 "set shiftwidth=4
 "set softtabstop=4
 "set expandtab
-
+"set viminfo+=n/mnt/dysk/viminfo
 """"""""""""""""""""""""""""""""""""""""""
 " allows cursor change in tmux mode
 "if exists('$TMUX')

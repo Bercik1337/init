@@ -1,1 +1,5 @@
-htop mc ncftp ncdu rar w3m 
+htop mc ncftp ncdu rar  screen tmux vim mlocate sshfs cfv rhash lynx links w3m iotop
+sudo openssh-server net-tools fail2ban sqlite3 monit 
+cowsay info bsdgames mutt build-essential cmake open-vm-tools
+irssi  znc
+

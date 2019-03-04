@@ -52,7 +52,7 @@ fi
 if [ "$color_prompt" = yes ]; then
 
 case $HOSTNAME in
-    (hubble)  PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ';;
+    (hubble)  PS1='\t ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ';;
     (pollux)  PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ ";;
     (thunix)  PS1='${debian_chroot:+($debian_chroot)}\[\033[01;36m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ';;
 	# bonus colors
@@ -156,4 +156,9 @@ alias uxterm='UXTERM=yes uxterm'
 #Timezone for Warsaw
 export TZ='/usr/share/zoneinfo/Europe/Warsaw'
 # ---- language-env end DON'T MODIFY THIS LINE!
+if [ "`id -u`" -eq 0 ]; then
+  PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  else
 export PATH=$PATH:~/.bin/
+fi
+

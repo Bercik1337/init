@@ -1,0 +1,6 @@
+#!/bin/bash
+data=$(date +%Y-%m-%d)
+#news=$(echo "asd\nfgh")
+news=$(echo "$data" "$1""\n""---------------------------------")
+echo -e $news | tee -a /etc/motd /etc/motd.tail /etc/dziennik
+

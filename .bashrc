@@ -114,7 +114,7 @@ alias sR='sudo systemctl restart'
 alias sS='sudo systemctl status'
 alias sT='sudo systemctl start'
 alias xz='xz -T 0'
-alias fup='apt-get update; apt-get upgrade -y; apt-get autoclean; apt-get autoremove; apt-get clean'
+alias fup='sudo apt-get update;sudo apt-get upgrade -y;sudo apt-get autoclean;sudo apt-get autoremove;sudo apt-get clean'
 alias rtorrent2='rtorrent -n -o import=~/.rtorrent-stare.rc'
 alias rhash='rhash --percents --speed'
 

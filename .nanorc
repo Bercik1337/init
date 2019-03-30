@@ -108,3 +108,16 @@ include "/usr/share/nano/sh.nanorc"
 
 ## XML-type files
 include "/usr/share/nano/xml.nanorc"
+
+### bonus colors
+include "~/.config/.nano/*.nanorc"
+
+# set element fgcolor,bgcolor
+set titlecolor brightwhite,blue
+set statuscolor brightwhite,green
+set errorcolor brightwhite,red
+set selectedcolor brightwhite,magenta
+#set stripecolor yellow
+set numbercolor cyan
+set keycolor cyan
+set functioncolor green

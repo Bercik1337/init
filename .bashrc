@@ -129,6 +129,7 @@ alias lS='ls -lSrh'			# smallest to biggest
 alias lg='ls -lh | grep'		# ls with grep
 alias findold='find . -atime'
 #serwery
+alias platinum='ssh -i ~/.ssh/platinum platinum.edu.pl'
 alias sshfsexidia='sshfs -o follow_symlinks exidia:/home/bercik /mnt/exidia/'
 alias sshfsleotia='sshfs -o follow_symlinks leotia:/home/bercik/ /mnt/leotia'
 alias sshfsplatinum='sshfs -o follow_symlinks platinum:/home/bercik /mnt/platinum'
@@ -157,9 +158,8 @@ alias uxterm='UXTERM=yes uxterm'
 #Timezone for Warsaw
 export TZ='/usr/share/zoneinfo/Europe/Warsaw'
 # ---- language-env end DON'T MODIFY THIS LINE!
-if [ "`id -u`" -eq 0 ]; then
-  PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-  else
+#### GIT bash
+GIT_PROMPT_ONLY_IN_REPO=1
+source ~/.bash-git-prompt/gitprompt.sh
 export PATH=$PATH:~/.bin/
-fi
 

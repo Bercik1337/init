@@ -155,5 +155,6 @@ export TZ='/usr/share/zoneinfo/Europe/Warsaw'
 #### GIT bash
 GIT_PROMPT_ONLY_IN_REPO=1
 source ~/.bash-git-prompt/gitprompt.sh
+source ~/.config/local.sh
 export PATH=$PATH:~/.bin/
 

@@ -22,7 +22,7 @@ defscrollback 3000
 
 hardstatus alwayslastline 
 # Very nice tabbed colored hardstatus line
-hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%d/%m/%Y%{= Kc} %c%{-}'
+hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW} %d/%m/%Y%{= Kc} %c%{-}'
 
 # change command character from ctrl-a to ctrl-b (emacs users may want this)
 #escape ^Bb
@@ -94,3 +94,4 @@ termcapinfo rxvt 'hs:ts=\E]2;:fs=\007:ds=\E]2;screen\007'
 # %m      : current month (0-padded; %M for "Jan" etc.)
 # -       : hyphen character
 # %d      : current date (0-padded)
+

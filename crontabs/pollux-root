@@ -1,0 +1,4 @@
+MAILTO=""
+30 * * * * /root/varcopy
+0 23 * * * tar --exclude=/var/backups/* --exclude=/var/cache/apt/*  --exclude=/var/cache/locate/* --exclude=/var/lib/apt/* --exclude=/var/log/* --exclude=/var/trt/* --exclude=/var/cache/locate/* --exclude=/var/www/rutorrent/share/users/rtorrent/settings/httprpc/* --exclude=/var/lib/mlocate/* -cJf /mnt/dysk2/var.tar.xz /var
+

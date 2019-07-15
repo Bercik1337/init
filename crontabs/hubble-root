@@ -1,0 +1,9 @@
+#skrypty
+###45 0 * * * /root/skrypty/nieudanelogowania.sh
+#0-59/15 * * * * /root/skrypty/pinger2.sh >/dev/null 2>&1
+#new backups
+10 1 * * 0 /root/skrypty/backuper.sh /etc /var/log /var/games /var/spool /var/mail
+18 1 * * 0 /root/skrypty/backuper.sh /root /home/bercik /home/chmuri # add home dirs
+#disaster recovery
+40 4 * * 0 /root/skrypty/disasterrecovery.sh
+

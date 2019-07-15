@@ -1,0 +1,1 @@
+30 23 * * * rsync /mnt/dysk2/var.tar.xz /mnt/platinum/vm-backup/

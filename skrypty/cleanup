@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -fr /mnt/dysk/var/www/rutorrent/share/users/rtorrent/settings/*
+rm -fr /mnt/dysk/var/tmp/*

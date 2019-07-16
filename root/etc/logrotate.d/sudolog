@@ -1,0 +1,10 @@
+/var/log/sudo.log {
+   
+    monthly
+    rotate 12
+    compress
+
+#    delaycompress
+    missingok
+    create 600 root root
+}

@@ -1,0 +1,18 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda1 during installation
+UUID=9c0e6dee-848b-46c6-8a3d-cdc5389cee7d /               ext4    errors=remount-ro 0       1
+# swap was on /dev/sdb1 during installation
+UUID=5f06a1b5-bf25-4d65-b9ab-ac5566b40b72 none            swap    sw              0       0
+/dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
+bercik@platinum:/home/bercik/ /mnt/platinum fuse.sshfs comment=sshfs,defaults,IdentityFile=/home/bercik/.ssh/platinum,follow_symlinks,users,exec,auto,_netdev,idmap=user,uid=1000,gid=1000  0 0
+bercik@hb1:/home/bercik/ /mnt/hashb fuse.sshfs comment=sshfs,defaults,IdentityFile=/home/bercik/.ssh/hashb,follow_symlinks,users,exec,auto,_netdev,idmap=user,uid=1000,gid=1000  0 0
+bercik@pollux:/home/bercik/ /mnt/pollux fuse.sshfs comment=sshfs,defaults,IdentityFile=/home/bercik/.ssh/pollux,follow_symlinks,users,uid=bercik,exec,auto,_netdev,idmap=user,uid=1000,gid=1000,port=1322  0 0
+bercik@thunix:/home/bercik/ /mnt/thunix fuse.sshfs comment=sshfs,defaults,IdentityFile=/home/bercik/.ssh/thunix,follow_symlinks,users,uid=bercik,exec,auto,_netdev,idmap=user,uid=1000,gid=1000,port=22  0 0
+#.host:/ /mnt/hgfs vmhgfs rw,ttl=1,uid=1000,gid=1000,nobootwait 0 0
+.host:/ /mnt/hgfs fuse.vmhgfs-fuse umask=0033,uid=1000,gid=1000,user,defaults 0 0

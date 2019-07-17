@@ -1,0 +1,12 @@
+[Unit]
+Description=Prepare /var/log directory structure
+Before=network.target apache2.service rtorrent.service vsftpd.service fail2ban.service rsyslog.service
+
+[Service]
+ExecStart=/root/prepvarlog.sh
+Type=forking
+#PIDFile=path_to_pidfile
+
+[Install]
+WantedBy=default.target
+

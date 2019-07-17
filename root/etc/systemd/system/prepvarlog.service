@@ -3,7 +3,7 @@ Description=Prepare /var/log directory structure
 Before=network.target apache2.service rtorrent.service vsftpd.service fail2ban.service rsyslog.service
 
 [Service]
-ExecStart=/root/prepvarlog.sh
+ExecStart=/root/skrypty/prepvarlog.sh
 Type=forking
 #PIDFile=path_to_pidfile
 

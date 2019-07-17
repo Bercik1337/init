@@ -1,0 +1,6 @@
+#!/bin/bash
+rsync -uav --perms --owner --group --log-file=/mnt/dysk/rsync.log --exclude=cache/apt/*  --exclude=cache/locate/* --exclude=lib/apt/* --exclude=log/* --exclude=trt/* --exclude=cache/locate/* --exclude=www/rutorrent/share/users/rtorrent/settings/httprpc/* --exclude=lib/mlocate/* /var/* /mnt/dysk/var
+cp /mnt/dysk/Torrenty/misiek/filmy.txt /mnt/dysk/
+
+## usunieto --exclude=backup/*
+

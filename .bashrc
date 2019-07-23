@@ -164,8 +164,13 @@ export TZ='/usr/share/zoneinfo/Europe/Warsaw'
 #### GIT bash
 if [ "`id -u`" -ne 0 ]; then
 GIT_PROMPT_ONLY_IN_REPO=1
-source ~/.bash-git-prompt/gitprompt.sh
 fi
 
+# set regular path plus personal bins
 export PATH=$PATH:~/.bin/
+
+# set proper PATH  for root
+if [ "`id -u`" -eq 0 ]; then
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+fi
 

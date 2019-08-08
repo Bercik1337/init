@@ -1,0 +1,14 @@
+[Unit]
+Description=The monitor UPS software
+After=prepvarlog.service
+# Remember to remove /etc/init.d/pwrstatd file
+[Service]
+Type=simple
+ExecStart=/usr/sbin/pwrstatd --start --background -m --pidfile /var/run/pwrstatd/pwrstatd.pid
+ExecReload=/bin/kill -1 -- $MAINPID
+ExecStop=/bin/kill -- $MAINPID
+KillMode=process
+
+[Install]
+WantedBy=default.target
+

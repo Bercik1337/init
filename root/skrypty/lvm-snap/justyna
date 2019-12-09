@@ -1,0 +1,28 @@
+#!/bin/bash
+KEEP_DAYS=24
+VG="adler" # LVM volume group we are snapshoting
+LV="justyna" # Name of LVM-volume to take a snapshot of
+BACKUP_PREFIX="$LV-snap-" # Prefix of snapshot volume name.
+
+
+# Create new snapshot
+TODAY="$(date +%FH%HM%MS%S)" 
+NEW_VOLUME="$BACKUP_PREFIX$TODAY" 
+if ! lvs | grep -q -F "$NEW_VOLUME"; then
+    /sbin/lvcreate -s --size 100M --name "$NEW_VOLUME"  "$VG/$LV"
+else
+    echo "Backup already exists: $NEW_VOLUME" 
+fi
+
+# Clean old snapshots.
+lvs -o lv_name --noheadings | sed -n "s@$BACKUP_PREFIX@@p" | while read UGLYDATE; do
+    DATE=$(echo $UGLYDATE | sed -n 's/H/ /;s/M/:/;s/S/:/;p')
+    TS_DATE=$(date -d "$DATE" +%s)
+    TS_NOW=$(date +%s)
+    AGE=$(( (TS_NOW - TS_DATE) / 86400))
+    echo age $AGE
+    if [ "$AGE" -ge "$KEEP_DAYS" ]; then
+        VOLNAME="$BACKUP_PREFIX$UGLYDATE" 
+        /sbin/lvremove -y "$VG/$VOLNAME" 
+    fi
+done

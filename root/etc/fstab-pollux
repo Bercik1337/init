@@ -20,3 +20,8 @@ UUID=9a0e64a4-e61d-4917-b069-84785af830e9	/mnt/dysk2	ext4	defaults	0	1 # raid 8T
 bercik@hb1:/home/bercik/ /mnt/hashb fuse.sshfs comment=sshfs,defaults,IdentityFile=/home/bercik/.ssh/id_rsa_hashb,transform_symlinks,users,exec,auto,_netdev,idmap=user,uid=1000,gid=1000  0 0
 bercik@platinum:/home/bercik/ /mnt/platinum fuse.sshfs comment=sshfs,defaults,IdentityFile=/home/bercik/.ssh/platinum,transform_symlinks,users,exec,auto,_netdev,idmap=user,uid=1000,gid=1000  0 0
 bercik@thunix:/home/bercik/ /mnt/thunix fuse.sshfs comment=sshfs,defaults,IdentityFile=/home/bercik/.ssh/thunix,follow_symlinks,users,uid=bercik,exec,auto,_netdev,idmap=user,uid=1000,gid=1000,port=22  0 0
+
+#ADLER
+/dev/mapper/adler-justyna /mnt/adler/justyna ext4 defaults 0 3
+/dev/mapper/adler-kamery /mnt/adler/kamery ext4 defaults 0 3
+

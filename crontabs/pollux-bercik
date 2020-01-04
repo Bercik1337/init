@@ -1,7 +1,7 @@
 30 23 * * * rsync /mnt/dysk2/var.tar.xz /mnt/platinum/vm-backup/
 30 4 * * 3,7 tree -ifn -o /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2
 35 4 * * 3,7 tree -ifn -o /mnt/dysk2/Pobrane/filelist_dysk /mnt/dysk
-40 4 * * 7 rsync /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2/Pobrane/filelist_dysk /mnt/platinum
-45 4 * * 7 rsync /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2/Pobrane/filelist_dysk /mnt/thunix
-40 4 * * 3 rsync /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2/Pobrane/filelist_dysk /mnt/hashb
+40 4 * * 7 scp /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2/Pobrane/filelist_dysk platinum:
+45 4 * * 7 scp /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2/Pobrane/filelist_dysk thunix:
+40 4 * * 3 scp /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2/Pobrane/filelist_dysk hb1:
 

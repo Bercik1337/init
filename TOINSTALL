@@ -1,4 +1,4 @@
-htop mc ncftp ncdu screen tmux vim mlocate sshfs rhash lynx links w3m iotop sudo 
+htop mc ncftp ncdu screen tmux vim mlocate sshfs rhash lynx links w3m iotop sudo p7zip-full
 mdadm net-tools fail2ban dnsutils mutt pure-ftpd
 sqlite3 monit cowsay info bsdgames build-essential cmake open-vm-tools
 irssi  znc mosh

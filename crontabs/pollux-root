@@ -1,7 +1,13 @@
 MAILTO=""
-30 * * * * /root/varcopy
-0 23 * * * tar --exclude=/var/backups/* --exclude=/var/cache/apt/*  --exclude=/var/cache/locate/* --exclude=/var/lib/apt/* --exclude=/var/log/* --exclude=/var/trt/* --exclude=/var/cache/locate/* --exclude=/var/www/rutorrent/share/users/rtorrent/settings/httprpc/* --exclude=/var/lib/mlocate/* -cJf /mnt/dysk2/var.tar.xz /var
-0 9,21 * * * /root/skrypty/upslog.sh
-30 11,16 * * 1-5 /root/skrypty/lvm-snap/justyna
+30 11 * * 2,4,5 /root/skrypty/lvm-snap/justyna
 00 13 * * 3,5 /root/skrypty/lvm-snap/kamery
+00 13 1,7,14,21,28 * * /root/skrypty/lvm-snap/pollux-root
+
+30 * * * * /root/skrypty/varcopy ##&& curl -fsS --retry 3
+0 23 * * * tar --exclude=/var/backups/* --exclude=/var/cache/apt/*  --exclude=/var/cache/locate/* --exclude=/var/lib/apt/* --exclude=/var/log/* --exclude=/var/trt/* --exclude=/var/cache/locate/* --exclude=/var/www/rutorrent/share/users/rtorrent/settings/httprpc/* --exclude=/var/lib/mlocate/* -cJf /mnt/dysk2/var.tar.xz /var && curl -fsS ## --retry 3 
+
+
+
+00 16 * * * tar cJf /mnt/dysk2/var.tar.xz /mnt/dysk/var
+10 16 * * * tar cJf /mnt/dysk2/sesja.tar.xz /mnt/dysk/Torrenty/.sesja/
 

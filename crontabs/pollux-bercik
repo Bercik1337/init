@@ -1,7 +1,20 @@
-30 23 * * * scp /mnt/dysk2/var.tar.xz platinum:vm-backup/
-30 4 * * 3,7 tree -ifn -o /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2
-35 4 * * 3,7 tree -ifn -o /mnt/dysk2/Pobrane/filelist_dysk /mnt/dysk
-40 4 * * 7 scp /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2/Pobrane/filelist_dysk platinum:
-45 4 * * 2,7 scp /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2/Pobrane/filelist_dysk thunix:
-40 4 * * 3,6 scp /mnt/dysk/Torrenty/filelist_dysk2 /mnt/dysk2/Pobrane/filelist_dysk hb1:
+#########################
+# FileLIST zielony
+#FL a
+0 7 * * 1,5 tree -ifn -o /mnt/dysk/filelist_dysk2 /mnt/dysk2 ##&& curl -fsS --retry 3
+#FL b
+0 7 * * 2,6 tree -ifn -o /mnt/dysk2/filelist_dysk /mnt/dysk ##&& curl -fsS --retry 3
+#####
+#FL c
+0 7 * * 3,7 ncdu -0 -o /mnt/dysk2/dysk-ncdu.txt /mnt/dysk && ##curl -fsS --retry 3 
+#FL d
+5 7 * * 4,7 ncdu -0 -o /mnt/dysk/dysk2-ncdu.txt /mnt/dysk2 && ##curl -fsS --retry 3
+
+#FileTransfer pomarańcz
+#FT a platinum
+41 19 * * 1,4,7   scp -p /mnt/dysk2/dysk-ncdu.txt /mnt/dysk/dysk2-ncdu.txt /mnt/dysk/filelist_dysk2 /mnt/dysk2/filelist_dysk /mnt/dysk2/sesja.tar.xz /mnt/dysk2/var.tar.xz platinum:vm-backup ##&& curl -fsS --retry 3
+#FT b thunix
+43 19 * * 2,5,7   scp -p /mnt/dysk2/dysk-ncdu.txt /mnt/dysk/dysk2-ncdu.txt /mnt/dysk/filelist_dysk2 /mnt/dysk2/filelist_dysk /mnt/dysk2/sesja.tar.xz /mnt/dysk2/var.tar.xz thunix:vm-backup ##&& curl -fsS --retry 3 
+#FT c hb1
+45 19 * * 3,6,7   scp -p /mnt/dysk2/dysk-ncdu.txt /mnt/dysk/dysk2-ncdu.txt /mnt/dysk/filelist_dysk2 /mnt/dysk2/filelist_dysk /mnt/dysk2/sesja.tar.xz /mnt/dysk2/var.tar.xz hb1:vm-backup ##&& curl -fsS --retry 3
 

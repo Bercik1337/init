@@ -1,6 +1,6 @@
 MAILTO=""
-30 11 * * 2,4,5 /root/skrypty/lvm-snap/justyna
-00 13 * * 3,5 /root/skrypty/lvm-snap/kamery
+#30 11 * * 2,4,5 /root/skrypty/lvm-snap/justyna #wylacze bo ciagle zawiesza serwer
+#00 13 * * 3,5 /root/skrypty/lvm-snap/kamery    #wylacze bo ciagle zawiesza serwer
 00 13 1,7,14,21,28 * * /root/skrypty/lvm-snap/pollux-root
 
 30 * * * * /root/skrypty/varcopy ##&& curl -fsS --retry 3

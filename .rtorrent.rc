@@ -35,7 +35,7 @@ check_hash = no
 #schedule = untied_directory,5,5,stop_untied=
 
 # Close torrents when diskspace is low.
-schedule = low_diskspace,5,60,close_low_diskspace=4000M
+schedule = low_diskspace,5,60,close_low_diskspace=100M
 
 # The ip address reported to the tracker.
 #ip = 127.0.0.1
@@ -47,7 +47,9 @@ schedule = low_diskspace,5,60,close_low_diskspace=4000M
 #bind = rakshasa.no
 
 # Port range to use for listening.
-port_range = 31337-31337 
+#port_range = 31337-31337 
+port_range = 50000-50000
+###port_range = 20000-20010
 #63345-63346
 
 # Start opening ports at a random position within the port range.
@@ -65,11 +67,15 @@ port_range = 31337-31337
 #schedule = bind_tick,0,1800,bind=rakshasa
 
 #schedule = watch_directory,10,10,load_start=/home/bercik/*.torrent
-#schedule = watch_directory,10,10,load_start=/var/trt/*.torrent
-schedule = tied_directory,10,10,start_tied=
+###schedule = watch_directory,10,10,load_start=/var/trt/*.torrent
+###schedule = tied_directory,10,10,start_tied=
+#method.insert = cfg.watch,    private|const|string, (cat,"/var/trt/")
+#schedule2 = watch_start, 10, 10, ((load.start_verbose, (cat, (cfg.watch), "start/*.torrent")))
+schedule2 = watch_directory_foo, 20, 10, "load.start_verbose=/var/trt/*.torrent"
+
 #schedule = untied_directory,10,10,close_untied=
 
-schedule = low_diskspace,5,60,close_low_diskspace=200M
+schedule = low_diskspace,5,60,close_low_diskspace=2000M
 
 # Encryption options, set to none (default) or any combination of the following:
 # allow_incoming, try_outgoing, require, require_RC4, enable_retry, prefer_plaintext
@@ -117,4 +123,8 @@ scgi_port = 127.0.0.1:5000
 network.http.ssl_verify_peer.set=0
 
 
-max_memory_usage = 2048M
+max_memory_usage = 768M
+log.open_file = "rtorrent", /mnt/dysk/rtorrent.log
+log.add_output = "critical", "rtorrent"
+log.add_output = "error", "rtorrent"
+log.add_output = "warn", "rtorrent"

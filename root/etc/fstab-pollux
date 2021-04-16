@@ -5,23 +5,28 @@
 # that works even if disks are added and removed. See fstab(5).
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
-# / was on /dev/sda1 during installation
-UUID=eca6e6e1-5b3c-4dea-b9f0-6b50d630418a /               ext4    errors=remount-ro 0       1
-/dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
-
+/dev/mapper/pollux-root /               ext4    errors=remount-ro,noatime 0       1
+# LVM root 0Ht6rE-snN7-7LB0-28c1-kkij-N8tj-4hzxvh
+#/dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
 
 
 tmpfs   /var    tmpfs    defaults,noatime,nosuid,mode=0755,size=512m    0 0
 
 #/dev/sdb1	/mnt/dysk	ext4	defaults	0	0  # VM
+
 UUID=6dbc16bf-2d20-476f-aca6-e70646a85ffa       /mnt/dysk       ext4    defaults        0       1  # raid 4T
-UUID=9a0e64a4-e61d-4917-b069-84785af830e9	/mnt/dysk2	ext4	defaults	0	1 # raid 8T
+UUID=9658cb3a-3cfe-4d74-80d3-f44500e79f13	/mnt/dysk2	ext4	defaults	0	1 # raid 12T
+
+
+
+
 #//ewunia/e  /mnt/ewunia  cifs  username=guest,password=guest,uid=1000,iocharset=utf8,noauto,user  0  0
 bercik@hb1:/home/bercik/ /mnt/hashb fuse.sshfs comment=sshfs,defaults,IdentityFile=/home/bercik/.ssh/id_rsa_hashb,transform_symlinks,users,exec,auto,_netdev,idmap=user,uid=1000,gid=1000  0 0
 bercik@platinum:/home/bercik/ /mnt/platinum fuse.sshfs comment=sshfs,defaults,IdentityFile=/home/bercik/.ssh/platinum,transform_symlinks,users,exec,auto,_netdev,idmap=user,uid=1000,gid=1000  0 0
 bercik@thunix:/home/bercik/ /mnt/thunix fuse.sshfs comment=sshfs,defaults,IdentityFile=/home/bercik/.ssh/thunix,follow_symlinks,users,uid=bercik,exec,auto,_netdev,idmap=user,uid=1000,gid=1000,port=22  0 0
 
+
 #ADLER
 /dev/mapper/adler-justyna /mnt/adler/justyna ext4 defaults 0 3
 /dev/mapper/adler-kamery /mnt/adler/kamery ext4 defaults 0 3
-
+/dev/mapper/adler-skany /mnt/adler/skany ext4 defaults 0 3

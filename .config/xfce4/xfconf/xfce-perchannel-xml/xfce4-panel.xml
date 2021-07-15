@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="empty"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="empty"/>
+      <property name="length" type="empty"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="background-style" type="empty"/>
+      <property name="background-alpha" type="empty"/>
+      <property name="enter-opacity" type="empty"/>
+      <property name="leave-opacity" type="empty"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="7"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="16"/>
+        <value type="int" value="21"/>
+        <value type="int" value="20"/>
+        <value type="int" value="22"/>
+        <value type="int" value="23"/>
+        <value type="int" value="24"/>
+        <value type="int" value="25"/>
+        <value type="int" value="6"/>
+        <value type="int" value="19"/>
+        <value type="int" value="15"/>
+        <value type="int" value="17"/>
+        <value type="int" value="10"/>
+        <value type="int" value="14"/>
+        <value type="int" value="11"/>
+        <value type="int" value="9"/>
+        <value type="int" value="12"/>
+        <value type="int" value="8"/>
+        <value type="int" value="18"/>
+        <value type="int" value="13"/>
+      </property>
+      <property name="nrows" type="uint" value="2"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="length-adjust" type="bool" value="false"/>
+      <property name="icon-size" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="empty"/>
+    <property name="plugin-2" type="empty"/>
+    <property name="plugin-3" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="15959613671.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-4" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="15959613672.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="15959613673.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-6" type="empty">
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="middle-click" type="empty"/>
+      <property name="grouping" type="uint" value="1"/>
+      <property name="include-all-monitors" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+    </property>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
+      <property name="items" type="array">
+        <value type="string" value="15960409971.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="empty">
+      <property name="names-visible" type="empty"/>
+      <property name="show-frame" type="empty"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="slack"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="akregator"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="teams-insiders"/>
+        <value type="string" value="quiterss"/>
+        <value type="string" value="liferea"/>
+        <value type="string" value="skypeforlinux"/>
+        <value type="string" value="remmina"/>
+        <value type="string" value="hexchat"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="task manager"/>
+      </property>
+    </property>
+    <property name="plugin-9" type="empty"/>
+    <property name="plugin-10" type="empty"/>
+    <property name="plugin-11" type="empty"/>
+    <property name="plugin-12" type="empty">
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+      <property name="enable-mpris" type="empty"/>
+      <property name="mixer-command" type="empty"/>
+      <property name="show-notifications" type="empty"/>
+      <property name="mpris-players" type="string" value="chromium.instance102507;chromium.instance10450;chromium.instance11111;chromium.instance11748;chromium.instance119637;chromium.instance12800;chromium.instance13421;chromium.instance135417;chromium.instance15249;chromium.instance16424;chromium.instance17435;chromium.instance17683;chromium.instance18086;chromium.instance18510;chromium.instance18717;chromium.instance19940;chromium.instance20364;chromium.instance21174;chromium.instance25337;chromium.instance27587;chromium.instance32738;chromium.instance34415;chromium.instance3614;chromium.instance37510;chromium.instance37702;chromium.instance38317;chromium.instance39146;chromium.instance46849;chromium.instance49101;chromium.instance5525;chromium.instance5560;chromium.instance5935;chromium.instance6171;chromium.instance6598;chromium.instance6761;chromium.instance6925;chromium.instance7232;chromium.instance728368;chromium.instance7638;chromium.instance90212;chromium.instance9040;chromium.instance9139;firefox.instance10451;firefox.instance10837;firefox.instance11250;firefox.instance11906;firefox.instance122225;firefox.instance12456;firefox.instance13750;firefox.instance15059;firefox.instance16311;firefox.instance16615;firefox.instance16872;firefox.instance20572;firefox.instance22845;firefox.instance22868;firefox.instance24143;firefox.instance28346;firefox.instance33491;firefox.instance3556;firefox.instance35609;firefox.instance36800;firefox.instance4151;firefox.instance43054;firefox.instance4451;firefox.instance51625;firefox.instance5166;firefox.instance51795;firefox.instance5205;firefox.instance5239;firefox.instance5313;firefox.instance5337;firefox.instance5340;firefox.instance5423;firefox.instance5446;firefox.instance5488;firefox.instance5505;firefox.instance5538;firefox.instance5590;firefox.instance56141;firefox.instance5800;firefox.instance6096;firefox.instance6272;firefox.instance6278;firefox.instance63335;firefox.instance63436;firefox.instance6345;firefox.instance6375;firefox.instance64054;firefox.instance6407;firefox.instance6484;firefox.instance6529;firefox.instance6549;firefox.instance6626;firefox.instance6745;firefox.instance6789;firefox.instance6859;firefox.instance70099;firefox.instance7093;firefox.instance7163;firefox.instance7187;firefox.instance7196;firefox.instance7198;firefox.instance7205;firefox.instance7229;firefox.instance7253;firefox.instance7259;firefox.instance7359;firefox.instance7422;firefox.instance7475;firefox.instance7606;firefox.instance7770;firefox.instance7818;firefox.instance7828;firefox.instance81879;firefox.instance8245;firefox.instance85779;firefox.instance8619;firefox.instance8783;firefox.instance9165;firefox.instance91857;firefox.instance9471;firefox.instance9896;io.github.celluloid_player.Celluloid.instance-1;rhythmbox;spotify;vlc;vlc.instance15022;vlc.instance60976"/>
+    </property>
+    <property name="plugin-13" type="empty">
+      <property name="digital-format" type="string" value="%a %d %b, %R"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-14" type="string" value="systemload"/>
+    <property name="plugin-15" type="string" value="weather"/>
+    <property name="plugin-18" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+    </property>
+    <property name="plugin-19" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15960410052.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15960410133.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-21" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15960410444.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-22" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15960410505.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-23" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15960410546.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-24" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15960410597.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-25" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15960410648.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="weather"/>
+  </property>
+</channel>

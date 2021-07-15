@@ -1,0 +1,10 @@
+#!/bin/bash
+id
+systemctl is-active --quiet thinkfan.service
+if [ $? = 0 ]; then
+echo "running"
+sudo systemctl stop thinkfan.service
+else
+echo "not running"
+sudo systemctl start thinkfan.service
+fi

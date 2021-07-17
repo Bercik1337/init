@@ -1,6 +1,6 @@
 sudo apt-get -y install \
 dmraid hddtemp hdparm hexchat \
-nmon iotop mtr \
+nmon iotop mtr whois \
 iptraf liferea \
 lm-sensors \
 ncdu ncftp net-tools mc \

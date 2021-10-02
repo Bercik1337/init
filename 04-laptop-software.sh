@@ -90,4 +90,4 @@ sudo apt-get -y install -f
 #docker-ce     
 #docker-ce-cli 
 
-echo "Please reboot after this step"
+echo -e "\n\n\n\n Please reboot after this step"

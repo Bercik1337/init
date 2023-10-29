@@ -12,14 +12,23 @@
       <value type="string" value="discord"/>
       <value type="string" value="Firefox"/>
       <value type="string" value="Liferea"/>
+      <value type="string" value="net.sourceforge.liferea"/>
       <value type="string" value="nm-applet"/>
+      <value type="string" value="org.gnome.baobab"/>
+      <value type="string" value="org.xfce.Thunar"/>
       <value type="string" value="rhythmbox"/>
+      <value type="string" value="signalbeta"/>
       <value type="string" value="Skype"/>
       <value type="string" value="Slack"/>
       <value type="string" value="Spotify"/>
+      <value type="string" value="System Config Printer Notification"/>
+      <value type="string" value="teams-insiders"/>
       <value type="string" value="thunar"/>
       <value type="string" value="thunar-volman"/>
+      <value type="string" value="Update Manager"/>
       <value type="string" value="vivaldi-stable"/>
+      <value type="string" value="vlc"/>
+      <value type="string" value="whatsapp-desktop"/>
       <value type="string" value="Xfce volume daemon"/>
       <value type="string" value="Xfce4-notifyd settings"/>
       <value type="string" value="xfce4-power-manager"/>

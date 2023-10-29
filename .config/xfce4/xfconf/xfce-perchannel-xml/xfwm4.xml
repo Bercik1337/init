@@ -65,7 +65,7 @@
     <property name="toggle_workspaces" type="empty"/>
     <property name="unredirect_overlays" type="empty"/>
     <property name="urgent_blink" type="empty"/>
-    <property name="use_compositing" type="empty"/>
+    <property name="use_compositing" type="bool" value="true"/>
     <property name="workspace_count" type="int" value="2"/>
     <property name="workspace_names" type="empty"/>
     <property name="wrap_cycle" type="empty"/>
@@ -85,5 +85,7 @@
     <property name="vblank_mode" type="string" value="auto"/>
     <property name="titleless_maximize" type="bool" value="false"/>
     <property name="zoom_desktop" type="bool" value="true"/>
+    <property name="cycle_minimized" type="bool" value="false"/>
+    <property name="zoom_pointer" type="bool" value="true"/>
   </property>
 </channel>

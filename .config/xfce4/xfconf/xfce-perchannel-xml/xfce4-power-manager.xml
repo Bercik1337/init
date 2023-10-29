@@ -14,5 +14,9 @@
     <property name="critical-power-level" type="uint" value="20"/>
     <property name="critical-power-action" type="uint" value="1"/>
     <property name="general-notification" type="bool" value="false"/>
+    <property name="presentation-mode" type="bool" value="false"/>
+    <property name="dpms-on-ac-sleep" type="uint" value="16"/>
+    <property name="blank-on-ac" type="int" value="15"/>
+    <property name="dpms-on-ac-off" type="uint" value="17"/>
   </property>
 </channel>

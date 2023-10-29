@@ -85,6 +85,12 @@
       <property name="names-visible" type="empty"/>
       <property name="show-frame" type="empty"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="whatsapp"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="tray.py"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="mintupdate.py"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="system-config-printer"/>
         <value type="string" value="slack"/>
@@ -101,6 +107,32 @@
         <value type="string" value="thunar"/>
         <value type="string" value="task manager"/>
       </property>
+      <property name="known-items" type="array">
+        <value type="string" value="Webex"/>
+        <value type="string" value="Franz1"/>
+        <value type="string" value="chrome_status_icon_2"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="Microsoft Teams - Insiders1"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="remmina-icon"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="Skype1"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="Slack1"/>
+        <value type="string" value="whatsapp-desktop1"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="tray.py"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="slack"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="hexchat"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="liferea"/>
+      </property>
     </property>
     <property name="plugin-9" type="empty"/>
     <property name="plugin-10" type="empty"/>
@@ -110,14 +142,53 @@
       <property name="enable-mpris" type="empty"/>
       <property name="mixer-command" type="empty"/>
       <property name="show-notifications" type="empty"/>
-      <property name="mpris-players" type="string" value="chromium.instance101539;chromium.instance102507;chromium.instance10450;chromium.instance106881;chromium.instance11111;chromium.instance11748;chromium.instance119637;chromium.instance12800;chromium.instance13421;chromium.instance135417;chromium.instance15249;chromium.instance16424;chromium.instance17435;chromium.instance17683;chromium.instance18086;chromium.instance18510;chromium.instance18717;chromium.instance19940;chromium.instance20364;chromium.instance21174;chromium.instance24851;chromium.instance25337;chromium.instance27587;chromium.instance31323;chromium.instance32738;chromium.instance34415;chromium.instance3614;chromium.instance37510;chromium.instance37702;chromium.instance38317;chromium.instance39146;chromium.instance46849;chromium.instance49101;chromium.instance5525;chromium.instance5560;chromium.instance5935;chromium.instance6171;chromium.instance6521;chromium.instance6529;chromium.instance6598;chromium.instance6761;chromium.instance6925;chromium.instance7113;chromium.instance7202;chromium.instance7232;chromium.instance728368;chromium.instance7315;chromium.instance7485;chromium.instance7638;chromium.instance9006;chromium.instance90212;chromium.instance9040;chromium.instance9139;firefox.instance100232;firefox.instance10451;firefox.instance10837;firefox.instance11250;firefox.instance11282;firefox.instance11484;firefox.instance11906;firefox.instance122225;firefox.instance12456;firefox.instance13631;firefox.instance13741;firefox.instance13750;firefox.instance15059;firefox.instance16311;firefox.instance16615;firefox.instance16872;firefox.instance18594;firefox.instance20572;firefox.instance22845;firefox.instance22868;firefox.instance24143;firefox.instance28346;firefox.instance33491;firefox.instance3556;firefox.instance35609;firefox.instance36800;firefox.instance37888;firefox.instance4151;firefox.instance43054;firefox.instance4451;firefox.instance51625;firefox.instance5166;firefox.instance51795;firefox.instance5205;firefox.instance5239;firefox.instance5313;firefox.instance5337;firefox.instance5340;firefox.instance5423;firefox.instance5446;firefox.instance5488;firefox.instance5505;firefox.instance5538;firefox.instance5590;firefox.instance56141;firefox.instance5800;firefox.instance6096;firefox.instance6272;firefox.instance6278;firefox.instance63335;firefox.instance63436;firefox.instance6345;firefox.instance6375;firefox.instance64054;firefox.instance6407;firefox.instance6484;firefox.instance6516;firefox.instance6529;firefox.instance6549;firefox.instance6626;firefox.instance6745;firefox.instance6789;firefox.instance6826;firefox.instance6859;firefox.instance6972;firefox.instance70099;firefox.instance7057;firefox.instance7078;firefox.instance7093;firefox.instance7163;firefox.instance7187;firefox.instance7196;firefox.instance7198;firefox.instance7205;firefox.instance7229;firefox.instance7253;firefox.instance7259;firefox.instance7359;firefox.instance7422;firefox.instance7428;firefox.instance7475;firefox.instance7606;firefox.instance7770;firefox.instance7818;firefox.instance7828;firefox.instance81879;firefox.instance8245;firefox.instance85779;firefox.instance8619;firefox.instance8783;firefox.instance9165;firefox.instance91857;firefox.instance9471;firefox.instance9896;io.github.celluloid_player.Celluloid.instance-1;rhythmbox;spotify;vlc;vlc.instance15022;vlc.instance60976;vlc.instance61718"/>
+      <property name="mpris-players" type="string" value="chromium.instance101539;chromium.instance10243;chromium.instance102507;chromium.instance10450;chromium.instance10567;chromium.instance106881;chromium.instance10913;chromium.instance11111;chromium.instance112114;chromium.instance112399;chromium.instance11748;chromium.instance117708;chromium.instance118278;chromium.instance118485;chromium.instance11942;chromium.instance119637;chromium.instance12318;chromium.instance12800;chromium.instance128065;chromium.instance131298;chromium.instance13230;chromium.instance13356;chromium.instance13421;chromium.instance135417;chromium.instance13702;chromium.instance13744;chromium.instance13768;chromium.instance13781;chromium.instance13838;chromium.instance142454;chromium.instance14346;chromium.instance146688;chromium.instance14826;chromium.instance150705;chromium.instance15249;chromium.instance153451;chromium.instance15717;chromium.instance16293;chromium.instance16424;chromium.instance164867;chromium.instance166643;chromium.instance17250;chromium.instance17435;chromium.instance17683;chromium.instance17970;chromium.instance18086;chromium.instance183954;chromium.instance18510;chromium.instance186803;chromium.instance18717;chromium.instance187488;chromium.instance190600;chromium.instance191886;chromium.instance198552;chromium.instance19940;chromium.instance20364;chromium.instance20849;chromium.instance209860;chromium.instance210837;chromium.instance21086;chromium.instance21137;chromium.instance211608;chromium.instance21174;chromium.instance21508;chromium.instance228112;chromium.instance22990;chromium.instance23444;chromium.instance234488;chromium.instance238256;chromium.instance24328;chromium.instance24623;chromium.instance24750;chromium.instance24851;chromium.instance25337;chromium.instance266657;chromium.instance273711;chromium.instance275174;chromium.instance27587;chromium.instance277872;chromium.instance281923;chromium.instance29099;chromium.instance30207;chromium.instance31323;chromium.instance319596;chromium.instance326464;chromium.instance327366;chromium.instance32738;chromium.instance34025;chromium.instance34415;chromium.instance34842;chromium.instance348927;chromium.instance353968;chromium.instance35481;chromium.instance3614;chromium.instance36649;chromium.instance37330;chromium.instance37510;chromium.instance37543;chromium.instance37702;chromium.instance38317;chromium.instance38398;chromium.instance38791;chromium.instance39146;chromium.instance41009;chromium.instance42805;chromium.instance44286;chromium.instance46849;chromium.instance47758;chromium.instance49101;chromium.instance50989;chromium.instance52532;chromium.instance53210;chromium.instance5446;chromium.instance5521;chromium.instance5525;chromium.instance5560;chromium.instance56301;chromium.instance5755;chromium.instance59306;chromium.instance5935;chromium.instance6171;chromium.instance6183;chromium.instance62914;chromium.instance6422;chromium.instance6440;chromium.instance6450;chromium.instance6468;chromium.instance6487;chromium.instance6488;chromium.instance6506;chromium.instance6521;chromium.instance6529;chromium.instance6537;chromium.instance6584;chromium.instance6587;chromium.instance6598;chromium.instance6600;chromium.instance6622;chromium.instance6669;chromium.instance6676;chromium.instance66823;chromium.instance66876;chromium.instance6761;chromium.instance67900;chromium.instance68166;chromium.instance6817;chromium.instance6840;chromium.instance6842;chromium.instance6866;chromium.instance6925;chromium.instance6975;chromium.instance6978;chromium.instance6993;chromium.instance7005;chromium.instance7072;chromium.instance7078;chromium.instance7080;chromium.instance7091;chromium.instance7113;chromium.instance7130;chromium.instance7142;chromium.instance7145;chromium.instance7153;chromium.instance7161;chromium.instance7164;chromium.instance71882;chromium.instance7199;chromium.instance7202;chromium.instance7224;chromium.instance7232;chromium.instance7250;chromium.instance728368;chromium.instance7315;chromium.instance7335;chromium.instance7350;chromium.instance7485;chromium.instance7638;chromium.instance7764;chromium.instance8016;chromium.instance8031;chromium.instance8077;chromium.instance80853;chromium.instance8099;chromium.instance84298;chromium.instance8515;chromium.instance8544;chromium.instance8781;chromium.instance8807;chromium.instance8839;chromium.instance88921;chromium.instance9006;chromium.instance90212;chromium.instance9040;chromium.instance9056;chromium.instance90621;chromium.instance9139;chromium.instance9185;chromium.instance9274;chromium.instance9427;chromium.instance95568;chromium.instance95732;chromium.instance9716;chromium.instance97189;chromium.instance9805;chromium.instance99349;firefox.instance100232;firefox.instance10056;firefox.instance10169;firefox.instance103210;firefox.instance103713;firefox.instance10451;firefox.instance105376;firefox.instance10552;firefox.instance105794;firefox.instance10674;firefox.instance10837;firefox.instance11109;firefox.instance11250;firefox.instance11282;firefox.instance113604;firefox.instance11484;firefox.instance115328;firefox.instance116070;firefox.instance11906;firefox.instance119499;firefox.instance12077;firefox.instance122225;firefox.instance12456;firefox.instance12563;firefox.instance126932;firefox.instance127460;firefox.instance129674;firefox.instance12998;firefox.instance13070;firefox.instance13132;firefox.instance13631;firefox.instance13741;firefox.instance13749;firefox.instance13750;firefox.instance137501;firefox.instance137633;firefox.instance140164;firefox.instance14274;firefox.instance144826;firefox.instance147076;firefox.instance15059;firefox.instance152366;firefox.instance16311;firefox.instance16615;firefox.instance16872;firefox.instance169614;firefox.instance17644;firefox.instance17717;firefox.instance177842;firefox.instance178478;firefox.instance185677;firefox.instance18594;firefox.instance20572;firefox.instance209567;firefox.instance21086;firefox.instance21440;firefox.instance215595;firefox.instance22341;firefox.instance22845;firefox.instance22868;firefox.instance24143;firefox.instance25439;firefox.instance269759;firefox.instance276875;firefox.instance28346;firefox.instance32247;firefox.instance32417;firefox.instance33491;firefox.instance346509;firefox.instance34719;firefox.instance34721;firefox.instance3556;firefox.instance35609;firefox.instance360166;firefox.instance36800;firefox.instance37554;firefox.instance37888;firefox.instance397866;firefox.instance4151;firefox.instance43054;firefox.instance4451;firefox.instance44690;firefox.instance49451;firefox.instance49926;firefox.instance511837;firefox.instance51625;firefox.instance5166;firefox.instance51795;firefox.instance5205;firefox.instance5239;firefox.instance5276;firefox.instance5313;firefox.instance53173;firefox.instance5337;firefox.instance5340;firefox.instance5341;firefox.instance5383;firefox.instance5391;firefox.instance5423;firefox.instance5434;firefox.instance5446;firefox.instance5455;firefox.instance5488;firefox.instance5501;firefox.instance5505;firefox.instance5538;firefox.instance5554;firefox.instance5590;firefox.instance56141;firefox.instance5666;firefox.instance5681;firefox.instance5800;firefox.instance60568;firefox.instance6096;firefox.instance6109;firefox.instance6272;firefox.instance6278;firefox.instance63335;firefox.instance63436;firefox.instance6345;firefox.instance63683;firefox.instance6375;firefox.instance64054;firefox.instance6406;firefox.instance6407;firefox.instance6416;firefox.instance6420;firefox.instance6421;firefox.instance6426;firefox.instance6427;firefox.instance6430;firefox.instance6435;firefox.instance6436;firefox.instance6437;firefox.instance6457;firefox.instance6459;firefox.instance6461;firefox.instance6465;firefox.instance6480;firefox.instance6482;firefox.instance6484;firefox.instance6499;firefox.instance6500;firefox.instance6516;firefox.instance6523;firefox.instance6529;firefox.instance6547;firefox.instance6549;firefox.instance6551;firefox.instance6556;firefox.instance6561;firefox.instance6576;firefox.instance6584;firefox.instance6595;firefox.instance6605;firefox.instance6626;firefox.instance6642;firefox.instance6677;firefox.instance6692;firefox.instance6736;firefox.instance6745;firefox.instance6771;firefox.instance6786;firefox.instance6789;firefox.instance6803;firefox.instance6825;firefox.instance6826;firefox.instance6846;firefox.instance6857;firefox.instance6859;firefox.instance6885;firefox.instance6901;firefox.instance6942;firefox.instance6951;firefox.instance6955;firefox.instance6956;firefox.instance6962;firefox.instance6972;firefox.instance6977;firefox.instance6999;firefox.instance7000;firefox.instance7002;firefox.instance70099;firefox.instance7036;firefox.instance7039;firefox.instance7044;firefox.instance7045;firefox.instance7048;firefox.instance7054;firefox.instance7057;firefox.instance7062;firefox.instance7078;firefox.instance7087;firefox.instance7093;firefox.instance7099;firefox.instance7102;firefox.instance71129;firefox.instance7119;firefox.instance7126;firefox.instance7157;firefox.instance7163;firefox.instance7185;firefox.instance7187;firefox.instance7196;firefox.instance7198;firefox.instance7205;firefox.instance7229;firefox.instance7247;firefox.instance7253;firefox.instance7259;firefox.instance7310;firefox.instance7321;firefox.instance7332;firefox.instance7344;firefox.instance7359;firefox.instance7422;firefox.instance7428;firefox.instance7475;firefox.instance7498;firefox.instance7511;firefox.instance7524;firefox.instance7606;firefox.instance7759;firefox.instance7770;firefox.instance7789;firefox.instance7818;firefox.instance7828;firefox.instance7997;firefox.instance81057;firefox.instance81206;firefox.instance8148;firefox.instance81726;firefox.instance81879;firefox.instance8188;firefox.instance8196;firefox.instance8245;firefox.instance83082;firefox.instance8438;firefox.instance85779;firefox.instance8619;firefox.instance8720;firefox.instance8767;firefox.instance8782;firefox.instance8783;firefox.instance88259;firefox.instance9039;firefox.instance9149;firefox.instance9165;firefox.instance9182;firefox.instance91857;firefox.instance9212;firefox.instance93520;firefox.instance9422;firefox.instance9471;firefox.instance95128;firefox.instance9590;firefox.instance9689;firefox.instance9707;firefox.instance9896;io.github.celluloid_player.Celluloid.instance-1;net.sourceforge.liferea.instance-1219;rhythmbox;spotify;vlc;vlc.instance15022;vlc.instance15610;vlc.instance60976;vlc.instance61718;xplayer"/>
     </property>
     <property name="plugin-13" type="empty">
       <property name="digital-format" type="string" value="%a %d %b, %R"/>
       <property name="mode" type="uint" value="2"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
     </property>
     <property name="plugin-14" type="string" value="systemload"/>
-    <property name="plugin-15" type="string" value="weather"/>
+    <property name="plugin-15" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Warszawa, województwo mazowieckie"/>
+        <property name="latitude" type="string" value="52.231958"/>
+        <property name="longitude" type="string" value="21.006725"/>
+      </property>
+      <property name="msl" type="int" value="135"/>
+      <property name="timezone" type="string" value="Europe/Warsaw"/>
+      <property name="offset" type="string" value="+02:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="false"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+        <property name="label1" type="int" value="9"/>
+      </property>
+    </property>
     <property name="plugin-18" type="string" value="pager">
       <property name="rows" type="uint" value="1"/>
       <property name="miniature-view" type="bool" value="true"/>
@@ -161,6 +232,43 @@
         <value type="string" value="15960410648.desktop"/>
       </property>
     </property>
-    <property name="plugin-17" type="string" value="weather"/>
+    <property name="plugin-17" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Łódź, województwo łódzkie"/>
+        <property name="latitude" type="string" value="51.772807"/>
+        <property name="longitude" type="string" value="19.478495"/>
+      </property>
+      <property name="msl" type="int" value="219"/>
+      <property name="timezone" type="string" value="Europe/Warsaw"/>
+      <property name="offset" type="string" value="+02:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="false"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+      </property>
+    </property>
   </property>
 </channel>

@@ -1,5 +1,5 @@
 sudo apt-get -y install \
-dmraid hddtemp hdparm hexchat \
+dmraid  hdparm hexchat \
 nmon iotop mtr whois \
 iptraf liferea \
 lm-sensors \
@@ -20,7 +20,9 @@ codeblocks virtualbox \
 minicom \
 bleachbit \
 skypeforlinux \
-freerdp2-x11
+freerdp2-x11 \
+chromium
+# hddtemp \ removed from repo
 
 sudo apt-get install -y ibus ibus-data ibus-gtk ibus-gtk3 libappindicator1 libc++1 libc++1-10 libc++abi1-10 libdbusmenu-gtk4 libegl1-mesa libgl1-mesa-glx libxcb-xtest0 python3-ibus-1.0
 
@@ -52,22 +54,24 @@ sudo apt update && sudo apt install -y vivaldi-stable
 
 
 #teams
-wget https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.30857_amd64.deb
-sudo dpkg -i teams*.deb
-rm teams*.deb
+##wget https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.30857_amd64.deb
+##sudo dpkg -i teams*.deb
+##rm teams*.deb
+## no longer supported ;(
 
 #slack
-wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.13.0-amd64.deb
+wget https://downloads.slack-edge.com/releases/linux/4.34.121/prod/x64/slack-desktop-4.34.121-amd64.deb
 sudo dpkg -i slack*.deb
 rm slack*.deb
 
 #spotify
-curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add - 
+curl -sS https://download.spotify.com/debian/pubkey_7A3A762FAFD4A51F.gpg| sudo apt-key add - 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-get update && sudo apt-get -y install spotify-client
 
 #zoom
 wget https://zoom.us/client/latest/zoom_amd64.deb
+sudo apt install libgl1-mesa-glx libegl1-mesa libxcb-xtest0 libxcb-cursor0 ibus #???
 sudo dpkg -i zoom_amd64.deb
 rm zoom_amd64.deb
 

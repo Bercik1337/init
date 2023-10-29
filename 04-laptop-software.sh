@@ -12,7 +12,6 @@ remmina \
 nmap iptraf \
 openssh-server \
 sublime-text vim  \
-thinkfan \
 ethtool \
 filezilla \
 x3270 \
@@ -23,7 +22,7 @@ skypeforlinux \
 freerdp2-x11 \
 chromium
 # hddtemp \ removed from repo
-
+# thinkfan \ not needed after T420
 sudo apt-get install -y ibus ibus-data ibus-gtk ibus-gtk3 libappindicator1 libc++1 libc++1-10 libc++abi1-10 libdbusmenu-gtk4 libegl1-mesa libgl1-mesa-glx libxcb-xtest0 python3-ibus-1.0
 
 
